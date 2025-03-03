@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "name": "jest-vitest-performance",
+  "scripts": {
+    "generate": "node ./generate-tests.js",
+    "test:jest": "jest --no-cache",
+    "test:vitest": "vitest run"
+  },
+  "devDependencies": {
+    "@vitest/browser": "^3.0.7",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jsdom": "^26.0.0",
+    "playwright": "^1.50.1",
+    "vitest": "^3.0.7"
+  }
+}
